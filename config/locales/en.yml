@@ -1,0 +1,8 @@
+# English strings go here for Rails i18n
+en:
+  label_select_cleanup_actions: "Select one or more cleanup actions to perform."
+  label_cleanup_actions: "Cleanup actions"
+  label_delete_wiki_history: "Delete wiki history"
+  label_clean: "Clean"
+  notice_cleanup_succeeded: "Cleanup succeeded"
+  notice_cleanup_failed: "Cleanup failed"

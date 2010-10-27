@@ -1,0 +1,11 @@
+<h2>Janitor</h2>
+
+<p><%= l(:label_select_cleanup_actions) %></p>
+
+<% form_tag :action => 'clean' do %>
+<fieldset class="box tabular" id="janitor_cleanup_actions">
+  <legend><%= l(:label_cleanup_actions) %></legend>
+  <%= check_box_tag :delete_wiki_history %> <%= label_tag :delete_wiki_history, l(:label_delete_wiki_history), :class => 'floating' %>
+</fieldset>
+<%= submit_tag l(:label_clean) %>
+<% end %>

@@ -1,0 +1,11 @@
+= Redmine Janitor plugin
+
+The Redmine Janitor plugin provides a utility for cleaning up a Redmine instance.
+
+== Currently supported
+* Deleting wiki history
+
+== Disclaimer
+Even though this plugin has been tested, there might still be bugs. *Please make backups before using this plugin!*
+
+The plugin is provided as is, and the author(s) can in no way be held responsible for any data loss or other harm caused by this plugin.
